@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 env:
-  PROJECT_DIR: your-folder-name # <-- Change this to your folder's name/path
+  PROJECT_DIR: zimnlauncher # <-- Change this to your folder's name/path
 
 jobs:
   build:
