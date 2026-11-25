@@ -1,0 +1,22 @@
+[package]
+name = "zimnlauncher"
+version = "0.1.0"
+edition = "2021"
+description = "Game launcher for Wine, AppImage and Java games"
+
+[dependencies]
+eframe = "0.29"
+egui_extras = { version = "0.29", features = ["file", "image"] }
+image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
+rfd = "0.15"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+dirs = "5"
+ureq = { version = "2", features = ["json"] }
+zip = { version = "2", default-features = false, features = ["deflate"] }
+flate2 = "1"
+tar = "0.4"
+
+[profile.release]
+strip = true
+lto = "thin"
