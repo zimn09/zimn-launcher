@@ -1,0 +1,10 @@
+/home/roman/projects/rust/launcher1.0/zimnlauncherlinux/zimnlauncher/target/debug/deps/crc32fast-5e3eff4b2198d710.d: /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/lib.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/baseline.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/combine.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/specialized/mod.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/table.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/specialized/pclmulqdq.rs
+
+/home/roman/projects/rust/launcher1.0/zimnlauncherlinux/zimnlauncher/target/debug/deps/libcrc32fast-5e3eff4b2198d710.rmeta: /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/lib.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/baseline.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/combine.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/specialized/mod.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/table.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/specialized/pclmulqdq.rs
+
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/lib.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/baseline.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/combine.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/specialized/mod.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/table.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crc32fast-1.5.6/src/specialized/pclmulqdq.rs:

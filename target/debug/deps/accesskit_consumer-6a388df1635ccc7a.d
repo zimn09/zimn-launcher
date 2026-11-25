@@ -1,0 +1,10 @@
+/home/roman/projects/rust/launcher1.0/zimnlauncherlinux/zimnlauncher/target/debug/deps/accesskit_consumer-6a388df1635ccc7a.d: /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/lib.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/tree.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/node.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/filters.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/iterators.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/text.rs
+
+/home/roman/projects/rust/launcher1.0/zimnlauncherlinux/zimnlauncher/target/debug/deps/libaccesskit_consumer-6a388df1635ccc7a.rmeta: /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/lib.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/tree.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/node.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/filters.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/iterators.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/text.rs
+
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/lib.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/tree.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/node.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/filters.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/iterators.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_consumer-0.24.3/src/text.rs:

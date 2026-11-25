@@ -1,0 +1,11 @@
+/home/roman/projects/rust/launcher1.0/zimnlauncherlinux/zimnlauncher/target/debug/deps/utf8_iter-4f1d461337877793.d: /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/lib.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/basic.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/handler.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/indices.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/macros.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/report.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/str.rs
+
+/home/roman/projects/rust/launcher1.0/zimnlauncherlinux/zimnlauncher/target/debug/deps/libutf8_iter-4f1d461337877793.rmeta: /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/lib.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/basic.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/handler.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/indices.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/macros.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/report.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/str.rs
+
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/lib.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/basic.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/handler.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/indices.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/macros.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/report.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/utf8_iter-1.1.0/src/str.rs:

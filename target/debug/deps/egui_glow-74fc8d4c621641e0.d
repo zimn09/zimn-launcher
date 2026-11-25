@@ -1,0 +1,11 @@
+/home/roman/projects/rust/launcher1.0/zimnlauncherlinux/zimnlauncher/target/debug/deps/egui_glow-74fc8d4c621641e0.d: /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/lib.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/painter.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/misc_util.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/shader_version.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/vao.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/shader/vertex.glsl /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/shader/fragment.glsl
+
+/home/roman/projects/rust/launcher1.0/zimnlauncherlinux/zimnlauncher/target/debug/deps/libegui_glow-74fc8d4c621641e0.rmeta: /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/lib.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/painter.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/misc_util.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/shader_version.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/vao.rs /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/shader/vertex.glsl /home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/shader/fragment.glsl
+
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/lib.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/painter.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/misc_util.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/shader_version.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/vao.rs:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/shader/vertex.glsl:
+/home/roman/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui_glow-0.29.1/src/shader/fragment.glsl:
