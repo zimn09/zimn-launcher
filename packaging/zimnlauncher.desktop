@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=ZimnLauncher
+Comment=Game launcher for Wine, AppImage and Java games
+Exec=zimnlauncher
+Icon=zimnlauncher
+Categories=Game;
+Terminal=false
+StartupWMClass=zimnlauncher
