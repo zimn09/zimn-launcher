@@ -1,0 +1,87 @@
+name: Build Linux AppImage
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache Cargo dependencies
+        uses: Swatinem/rust-cache@v2
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            build-essential \
+            curl \
+            wget \
+            file \
+            libfuse2 \
+            patchelf
+      - name: Build release
+        run: cargo build --release
+
+      - name: Check build output
+        run: |
+          ls -lah target/release/
+          file target/release/zimnlauncher
+      - name: Download linuxdeploy
+        run: |
+          wget -q https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage
+          chmod +x linuxdeploy-x86_64.AppImage
+      - name: Create AppDir
+        run: |
+          mkdir -p AppDir/usr/bin
+          cp target/release/zimnlauncher AppDir/usr/bin/
+          chmod +x AppDir/usr/bin/zimnlauncher
+      - name: Create desktop entry
+        run: |
+          mkdir -p AppDir/usr/share/applications
+          cat > AppDir/usr/share/applications/zimnlauncher.desktop <<'EOF'
+          [Desktop Entry]
+          Type=Application
+          Name=ZimnLauncher
+          Comment=ZimnLauncher Application
+          Exec=zimnlauncher
+          Icon=zimnlauncher
+          Categories=Utility;
+          Terminal=false
+          EOF
+      - name: Create placeholder icon
+        run: |
+          mkdir -p AppDir/usr/share/icons/hicolor/256x256/apps
+          sudo apt-get install -y imagemagick
+          convert -size 256x256 xc:'#252525' \
+            -fill white \
+            -gravity center \
+            -pointsize 48 \
+            -font DejaVu-Sans \
+            -annotate 0 'ZL' \
+            AppDir/usr/share/icons/hicolor/256x256/apps/zimnlauncher.png
+      - name: Create AppImage
+        run: |
+          ./linuxdeploy-x86_64.AppImage \
+            --appimage-extract-and-run \
+            --appdir AppDir \
+            --desktop-file AppDir/usr/share/applications/zimnlauncher.desktop \
+            --icon-file AppDir/usr/share/icons/hicolor/256x256/apps/zimnlauncher.png \
+            --output appimage
+      - name: Upload AppImage artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: linux-appimage
+          path: "*.AppImage"
+          if-no-files-found: error
